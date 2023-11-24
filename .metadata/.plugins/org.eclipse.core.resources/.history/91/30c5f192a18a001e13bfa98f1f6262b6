@@ -1,0 +1,5 @@
+package TugasPBO;
+
+public abstract class Buah {
+
+}

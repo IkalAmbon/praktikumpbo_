@@ -1,0 +1,38 @@
+package TugasPBO;
+
+//Abstract class Buah
+public abstract class Buah {
+// Abstract method (tidak memiliki implementasi di sini)
+public abstract void deskripsi();
+
+// Regular method
+
+}
+			
+			//Concrete class yang mewarisi dari abstract class Buah
+			class Apel extends Buah  {
+			 // Implementasi abstract method deskripsi() untuk Apel
+				 public void deskripsi() {
+				     System.out.println("Buah apel memiliki rasa manis dan sering berwarna merah.");
+				 }
+			}
+
+			class Jeruk extends Buah {
+				public void deskripsi() {
+					System.out.println("Jeruk");
+				}
+			
+
+
+				class Main{
+					public static void main(String[] args) {
+					     // Membuat objek Apel
+					     Apel apel = new Apel();
+					     apel.deskripsi();
+					
+					     // Membuat objek Jeruk
+					     Jeruk jeruk = new Jeruk();
+					     jeruk.deskripsi();
+				}	
+				}
+			}

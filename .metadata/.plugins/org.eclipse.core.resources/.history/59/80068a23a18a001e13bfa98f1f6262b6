@@ -1,0 +1,12 @@
+package TugasPBO;
+
+public class Jeruk extends Buah{
+	public void deskripsi() {
+		System.out.println("Jeruk");
+	}
+	public static void main(String[] args) {
+	     // Membuat objek Apel
+	     Jeruk Jeruk = new Jeruk();
+	     Jeruk.deskripsi();}
+}
+

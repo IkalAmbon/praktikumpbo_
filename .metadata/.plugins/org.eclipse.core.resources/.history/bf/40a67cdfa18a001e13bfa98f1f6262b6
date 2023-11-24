@@ -1,0 +1,10 @@
+package TugasPBO;
+
+public class Main {
+	
+	public static void main(String[] args)
+	{
+		Jeruk jeruk = new Jeruk();
+	}
+
+}
